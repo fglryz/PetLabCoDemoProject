@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-27T00:15:00.191Z",
+    "end": "2025-04-27T00:15:41.006Z",
+    "duration": 40815,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "245c2202-1feb-4b0c-84a0-51ad17d1d3e4",
+      "title": "",
+      "fullFile": "cypress/e2e/combinedOffers.spec.ts",
+      "file": "cypress/e2e/combinedOffers.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1f44f848-40a3-4111-a33e-1b9eed603065",
+          "title": "1. Probiotic Chews Offer Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Full Flow: Probiotic Chews",
+              "fullTitle": "1. Probiotic Chews Offer Page Full Flow: Probiotic Chews",
+              "timedOut": null,
+              "duration": 16387,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_support_utils_RequestUtils__WEBPACK_IMPORTED_MODULE_4__.RequestUtils.verifyPageLoad(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.probioticChews.url);\ncy.wait(1500);\n_pageObjects_OfferPage__WEBPACK_IMPORTED_MODULE_0__.offerPage.verifyCurrency(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.probioticChews.currency);\n_pageObjects_OfferPage__WEBPACK_IMPORTED_MODULE_0__.offerPage.verifyAllPrices(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.probioticChews);\n_support_utils_FooterUtils__WEBPACK_IMPORTED_MODULE_3__.FooterUtils.checkFooterLinks();",
+              "err": {},
+              "uuid": "9097ca3f-6624-491e-836a-6d51c80a4bc1",
+              "parentUUID": "1f44f848-40a3-4111-a33e-1b9eed603065",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9097ca3f-6624-491e-836a-6d51c80a4bc1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16387,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a47e0b32-f4d4-4f61-8b9a-4528612a4267",
+          "title": "2. Stock Up & Save Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Full Flow: Stock Up & Save",
+              "fullTitle": "2. Stock Up & Save Page Full Flow: Stock Up & Save",
+              "timedOut": null,
+              "duration": 4228,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_support_utils_RequestUtils__WEBPACK_IMPORTED_MODULE_4__.RequestUtils.verifyPageLoad(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.stockUpSave.url);\n_pageObjects_StockUpPage__WEBPACK_IMPORTED_MODULE_1__.stockUpPage.verifyAllPackages(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.stockUpSave);\n_pageObjects_OfferPage__WEBPACK_IMPORTED_MODULE_0__.offerPage.verifyCurrency(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.stockUpSave.currency);\n_support_utils_FooterUtils__WEBPACK_IMPORTED_MODULE_3__.FooterUtils.checkFooterLinks();",
+              "err": {},
+              "uuid": "6c4bc983-22bf-44de-8ad6-3a171ad8f99a",
+              "parentUUID": "a47e0b32-f4d4-4f61-8b9a-4528612a4267",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6c4bc983-22bf-44de-8ad6-3a171ad8f99a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4228,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "37bf5a97-ec13-4c62-bf0e-38c331306136",
+          "title": "3. Allergy & Immune Offer Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Full Flow: Allergy & Immune",
+              "fullTitle": "3. Allergy & Immune Offer Page Full Flow: Allergy & Immune",
+              "timedOut": null,
+              "duration": 16289,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_support_utils_RequestUtils__WEBPACK_IMPORTED_MODULE_4__.RequestUtils.verifyPageLoad(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.allergyImmune.url);\n_pageObjects_AllergyImmunePage__WEBPACK_IMPORTED_MODULE_2__.allergyImmunePage.verifyAllDogSizes(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.allergyImmune);\n_pageObjects_OfferPage__WEBPACK_IMPORTED_MODULE_0__.offerPage.verifyCurrency(_fixtures_offersData_json__WEBPACK_IMPORTED_MODULE_5__.allergyImmune.currency);\n_support_utils_FooterUtils__WEBPACK_IMPORTED_MODULE_3__.FooterUtils.checkFooterLinks();",
+              "err": {},
+              "uuid": "90c38d85-8de4-4a98-833b-42b4ada27bd0",
+              "parentUUID": "37bf5a97-ec13-4c62-bf0e-38c331306136",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "90c38d85-8de4-4a98-833b-42b4ada27bd0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16289,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

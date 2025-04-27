@@ -1,0 +1,75 @@
+{
+  "probioticChews": {
+    "url": "https://offers.petlabco.co.uk/probiotic-chews",
+    "currency": "£",
+    "subscribeAndSave": {
+      "1Tub": "£19.46",
+      "2Tub": "£31.14",
+      "3Tub": "£43.79"
+    },
+    "oneTime": {
+      "1Tub": "£32.44",
+      "2Tub": "£51.90",
+      "3Tub": "£72.99"
+    },
+    "shippingText": "FREE SHIPPING"
+  },
+  "stockUpSave": {
+    "url": "https://offers.thepetlabco.com/probiotic-chews/stock_upbxgy",
+    "currency": "$",
+    "packages": {
+      "buy5Get3Free": {
+        "originalPrice": "$299.52",
+        "discountedPrice": "$187.20",
+        "shippingCost": "0"
+      },
+      "buy4Get2Free": {
+        "originalPrice": "$224.64",
+        "discountedPrice": "$187.20",
+        "shippingCost": " 0"
+      },
+      "buy3Get1Free": {
+        "originalPrice": "$149.76",
+        "discountedPrice": "$112.32",
+        "shippingCost": "$4.99"
+      }
+    }
+  },
+  "allergyImmune": {
+    "url": "https://offers.thepetlabco.com/probiotic-allergy-immune",
+    "currency": "$",
+    "dogSize": {
+      "under25lbs": {
+        "1Tub": "$1.00",
+        "2Tubs": "$0.80",
+        "3Tubs": "$ 0.75"
+      },
+      "25to75lbs": {
+        "1Tub": "$1.23",
+        "2Tubs": "$0.99",
+        "3Tubs": "$0.92"
+      },
+      "over75lbs": {
+        "1Tub": "$1.43",
+        "2Tubs": "$1.15",
+        "3Tubs": "$1.07"
+      },
+     "packageName": {
+        "Buy 5, Get 3 FREE": {
+          "shippingText": "+ FREE Shipping & FREE Gift"
+        },
+        "Buy 4, Get 2 FREE": {
+         " shippingText": "+ FREE Shipping"
+        },
+        "Buy 3, Get 1 FREE": {
+          "shippingText": "+ $4.99 Shipping"
+        }
+      }
+    }
+  }
+}
+  
+  
+
+
+  
