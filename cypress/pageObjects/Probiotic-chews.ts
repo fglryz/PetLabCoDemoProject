@@ -109,7 +109,7 @@ class ProbioticChewsPage {
       .invoke('text')
       .then(actualPrice => {
         const cleanedActualPrice = actualPrice.trim();
-        cy.log(`Beklenen Fiyat: ${expectedPrice} | Gerçek Fiyat: ${cleanedActualPrice}`);
+        cy.log(`Expected Price: ${expectedPrice} | Actual Price: ${cleanedActualPrice}`);
         expect(cleanedActualPrice).to.eq(expectedPrice);
       });
   }
