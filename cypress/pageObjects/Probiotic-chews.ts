@@ -18,7 +18,7 @@ class ProbioticChewsPage {
       .should('exist')
       .should('be.visible')
       .scrollIntoView()
-      .click({ force: true }); // Burada 1 Tub'ı seçiyoruz
+      .click({ force: true });
   }
 
   selectTub(quantity: '1' | '2' | '3') {

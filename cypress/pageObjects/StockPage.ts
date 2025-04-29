@@ -18,30 +18,13 @@ class StockUpPage {
   getDiscountedPrice() {
     return cy.get('[data-element-id="total-price-otp"] strong');
   }
-  // verifyAllPackageShippingTexts(packages: any) {
-  //   Object.keys(packages).forEach(packageName => {
-  //     const shippingText = packages[packageName].shippingText;
-  //     this.selectPackage1(packageName);
-  //     this.verifyShippingText(shippingText);
-  //   });
-  // }
-  
- 
-  // selectPackage1(packageName: string) {
-  //   cy.contains('input[name="selected-container"]:checked', packageName).click();
-  // }
-  
+
   verifyShippingTextStock(expectedShippingText: string) {
-    cy.get('[data-element-id="otp-quantity-selector-1"]') 
+    cy.get('[data-element-id="otp-quantity-selector-1"]')
       .should('contain.text', expectedShippingText);
   }
-  
-  
-  
-  
 
-  
-  
+
   verifyPrice(expectedPrice: string, expectedCurrency: string, expectedShipping: string) {
     this.getDiscountedPrice().should('contain.text', expectedPrice);
   }
@@ -54,8 +37,8 @@ class StockUpPage {
         data.packages[packages].shippingCost
       );
     });
-  
+
   }
-  }
-  
+}
+
 export const stockUpPage = new StockUpPage();

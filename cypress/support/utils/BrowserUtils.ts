@@ -18,7 +18,7 @@ export function checkFooterLinks(): void {
     }
 
     cy.location('href', { timeout: 15000 })
-      .should('include', expectedUrlPart); // SPLIT YOK! Direkt include ediyoruz
+      .should('include', expectedUrlPart);
 
     cy.request({
       url: expectedUrlPart,
